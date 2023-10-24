@@ -46,7 +46,7 @@ export const Navbar = () => {
           <li className="cursor-pointer">ABOUT</li>
           <li className="cursor-pointer">CONTACT</li>
         </ul>
-
+        {/* Mobile */}
         <div className="md:hidden">
           <Menu className="cursor-pointer text-primary-greNew dark:text-primary-light" />
         </div>
