@@ -2,7 +2,7 @@ import { Github, Linkedin, ListTodo } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="sm:px-16 px-5 hidden">
+    <footer className="sm:px-16 px-5 absolute w-full bottom-3">
       <div className="flex justify-between">
         <section>
           <div className="flex items-center gap-4">
@@ -16,8 +16,8 @@ export const Footer = () => {
           </span>
         </section>
         <section className="flex items-center gap-4">
-          <Linkedin className="text-primary-greNew dark:text-primary-light" />
-          <Github className="text-primary-greNew dark:text-primary-light" />
+          <Linkedin className="text-primary-greNew dark:text-primary-light animate-bounce animate-infinite animate-duration-1000 animate-ease-linear animate-delay-[7220ms]" />
+          <Github className="text-primary-greNew dark:text-primary-light animate-bounce animate-infinite animate-duration-1000 animate-ease-linear animate-delay-[7430ms]" />
         </section>
       </div>
 
