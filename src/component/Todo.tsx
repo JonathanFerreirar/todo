@@ -1,3 +1,5 @@
+//eslint-disable-next-line
+//@ts-ignore
 export const Todo = ({ children }) => {
   return (
     <div className="pr-5">

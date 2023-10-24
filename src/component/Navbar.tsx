@@ -7,8 +7,8 @@ export const Navbar = () => {
   const { removeTheme, setTheme } = handleTheme();
 
   const handleToggle = () => {
-    const CLASS = rootDiv?.getAttribute("class");
-    CLASS !== "dark" ? setTheme() : removeTheme();
+    const classOnDiv = rootDiv?.getAttribute("class");
+    classOnDiv !== "dark" ? setTheme() : removeTheme();
   };
 
   useEffect(() => {
