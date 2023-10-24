@@ -8,7 +8,7 @@ function App() {
   return (
     <main className="dark:bg-primary-dark h-screen">
       <Navbar />
-      <section className="md:ml-[260px] md:mt-[167px] sm:ml-16 ml-5 mt-12 flex gap-16 flex-col">
+      <section className="md:ml-[260px] sm:ml-16 ml-5 flex gap-16 flex-col justify-center h-[80%]">
         <div className="max-w-[226px] flex flex-col gap-3">
           <div className="flex items-center gap-6 animate-spin animate-once animate-duration-[2000ms] animate-delay-[1210ms] animate-ease-out">
             <ListTodo className="text-primary-greyDark w-12 h-11 dark:text-primary-light" />
