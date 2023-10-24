@@ -2,7 +2,7 @@ import { Github, Linkedin, ListTodo } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="px-16 hidden">
+    <footer className="sm:px-16 px-5 hidden">
       <div className="flex justify-between">
         <section>
           <div className="flex items-center gap-4">

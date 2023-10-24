@@ -21,7 +21,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <header className="flex items-center justify-between px-16 pt-6">
+    <header className="flex items-center justify-between sm:px-16 px-5 pt-6">
       <div className="flex items-center gap-[3px] ">
         <ListTodo className="text-primary-greNew dark:text-primary-light" />
         <p className="text-xl font-monse font-semibold text-primary-greNew dark:text-primary-light">
