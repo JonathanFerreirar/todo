@@ -14,6 +14,7 @@ export default {
         redLight: "#F55252",
         green: "#0C2D00",
         grey: "#545454",
+        greyLight: "#6b6b6b",
         greyDark: "#282828",
         greNew: "#404040",
         light: "#FAFAFA",
